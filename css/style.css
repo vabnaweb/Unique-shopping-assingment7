@@ -33,6 +33,10 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+/* extra */
+.input-field{
+   text-align: center;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,15 +46,22 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+ 
+ 
+}
+.card-color{
+ background-color:ghostwhite;
 }
 .single-product {
   padding: 10px;
   transition: 0.6s;
+ 
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background-color: gainsboro;
 }
 .product-image {
   width: 150px;
@@ -81,6 +92,7 @@ body {
 .category{
   color:rgb(93, 78, 189)
 }
+
 
 /* end */
 .cart-main {
