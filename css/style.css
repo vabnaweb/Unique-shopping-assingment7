@@ -10,9 +10,11 @@ body {
 }
 .search-field:hover {
   outline: none;
-  border: none;
+  border:none;
+  
 }
-.search-box {
+
+.search-box{
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
   border-radius: 5px;
@@ -23,7 +25,7 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
